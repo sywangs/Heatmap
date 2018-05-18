@@ -67,8 +67,8 @@ class MapTopviewDraw(object):
         camera_det=[]
 
         self.Zone = np.zeros((20,20))
-        pos_colum = [0.2664,0.43,0.61,0.8644,0.8644,0.8644,0.523]
-        pos_row = [0.4682,0.234,0.2331,0.325,0.5208,0.8,0.491]
+        pos_colum = [0.2664,0.43,0.61,0.8644,0.8644,0.8644,0.523,0.523]
+        pos_row = [0.4682,0.234,0.2331,0.325,0.5208,0.8,0.491,0.715]
         value = data
 
         for i in range(len(value)):
